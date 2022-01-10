@@ -3,4 +3,24 @@
 ul,ol,li { list-style: none;}
 a{ text-decoration: none;}
 
+:root {
+    //color
+    --color-white: #ebf2f5;
+    --color-gray: #879194;
+    --color-darkgray: #5f6669;
+
+    //font size
+	--font-large: 30px;
+	--font-medium: 24px;
+	--font-regular: 16px;
+	--font-small: 14px;
+	--font-micro: 12px;
+
+    //font weight
+    --weight-bold: 700;
+	--weight-semi-bold: 600;
+	--weight-regular: 400;
+
+}
+
 

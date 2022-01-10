@@ -8,11 +8,17 @@ ul, ol, li {
 a {
   text-decoration: none; }
 
-#header {
-  width: 100%; }
-  #header .inner {
-    width: 100%;
-    height: 100px; }
+:root {
+  --color-white: #ebf2f5;
+  --color-gray: #879194;
+  --color-darkgray: #5f6669;
+  --font-large: 30px;
+  --font-medium: 24px;
+  --font-regular: 16px;
+  --font-small: 14px;
+  --font-micro: 12px;
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400; }
 
 /*# sourceMappingURL=style.css.map */
-

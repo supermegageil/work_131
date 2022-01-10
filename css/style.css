@@ -12,6 +12,7 @@ a {
   --color-white: #ebf2f5;
   --color-gray: #879194;
   --color-darkgray: #5f6669;
+  --color-frame: #27851e;
   --font-large: 30px;
   --font-medium: 24px;
   --font-regular: 16px;
@@ -28,10 +29,11 @@ a {
     width: 1180px;
     height: 150px;
     margin: 0 auto;
-    position: relative;
-    border: solid 1px red; }
-    #header .inner .header__top {
-      float: left;
-      border: solid 1px green; }
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; }
+    #header .inner .header_sns {
+      display: flex; }
 
 /*# sourceMappingURL=style.css.map */

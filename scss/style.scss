@@ -8,6 +8,7 @@ a{ text-decoration: none;}
     --color-white: #ebf2f5;
     --color-gray: #879194;
     --color-darkgray: #5f6669;
+    --color-frame: #27851e;
 
     //font size
 	--font-large: 30px;
@@ -30,17 +31,13 @@ a{ text-decoration: none;}
         width: 1180px;
         height: 150px;
         margin: 0 auto;
-        position: relative;
         border: solid 1px red;
+        display:flex;
+        justify-content: space-between;
+        padding:10px;
 
-        .header__top{
-            float:left;
-            border: solid 1px green;
-            
-
-        }
-        .header__under{
-
+        .header_sns{
+            display:flex;
         }
     }
 }

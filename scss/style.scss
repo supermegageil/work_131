@@ -31,14 +31,24 @@ a{ text-decoration: none;}
         width: 1180px;
         height: 150px;
         margin: 0 auto;
-        border: solid 1px red;
-        display:flex;
-        justify-content: space-between;
-        padding:10px;
+        position:relative;
 
-        .header_sns{
-            display:flex;
+        .header__sns{
+            position: absolute;
+            top:20px;
+            right:40px;
+            font-size:30px;
+            color:var(--color-darkgray);
+
+            li{
+                float:left; 
+                margin-left:20px; 
+    
+                a{
+                   font:12px/1 'arial';
+                   color:#999; 
+                }
+            }
         }
     }
 }
-
